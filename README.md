@@ -56,3 +56,14 @@ If you offer software downloads, CloudFront can distribute your files faster, re
 
 ---
 # Implementing a Static website on S3 and accessing it through CloudFront
+
+1. Go to S3 from AWS console - > Create bucket -> Give Bucket name (you can give your customer domain name) -> Bucket Versioning - Enable -> Click on Create a bucket
+
+
+2. Click on the bucket created -> Goto Properties tab -> Click on Edit beside Static website hosting -> Click on Enable -> Give a name to Index document - index.html & Error document - error.html -> Click on Save changes
+
+
+3. Go back to the bucket created -> Click on upload and Add files -> Add the files present in Squadfree folder -> Click on Upload 
+
+
+4. Go to CloudFront from AWS console -> Click on Create distribution -> Origin domain - Select the S3 bucket where you have uploaded the website files -> Origin access - Click on Legacy access identities  ->  Origin access identity - Click on Create new OAI - Click on Create -> Select Yes, update the bucket policy -> Default root object - /index.html -> Web Application Firewall (WAF) - Do not enable security protections 

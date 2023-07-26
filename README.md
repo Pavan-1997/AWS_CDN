@@ -14,7 +14,7 @@ Imagine you have a website with lots of cool content, like images, videos, and d
 A CDN is like a network of servers spread across various locations worldwide. These servers store a copy of your website's content. When a user requests your website, the content is delivered from the server closest to the user, making it super fast! It's like having a local store for your website content everywhere in the world.
 
 
-## 3. How Does CloudFront Work?
+## 2. How Does CloudFront Work?
 
 Let's understand how CloudFront works with a simple example:
 
@@ -27,7 +27,7 @@ Here's how the process flows:
 The next time someone requests the same image, CloudFront will deliver it from its cache, making it super fast and efficient!
 
 
-## 4. Benefits of CloudFront
+## 3. Benefits of CloudFront
 
 - **Fast Content Delivery**: CloudFront ensures your content reaches users with minimal delay, making your website lightning fast.
 - **Global Reach**: With servers in various locations worldwide, CloudFront brings your content closer to users, regardless of where they are.
@@ -36,7 +36,7 @@ The next time someone requests the same image, CloudFront will deliver it from i
 - **Cost-Effective**: Pay only for the data transfer and requests made, making it cost-effective for businesses of all sizes.
 
 
-## 5. Use Cases and Scenarios
+## 4. Use Cases and Scenarios
 
 ### Scenario 1: E-Commerce Website
 Let's say you have an e-commerce website that sells products globally. By using CloudFront, your product images and videos load quickly for customers all over the world, improving the shopping experience.
@@ -48,7 +48,7 @@ You're running a video streaming platform. With CloudFront, you can stream video
 If you offer software downloads, CloudFront can distribute your files faster, reducing download times and providing a better user experience.
 
 
-## 6. Tips and Best Practices
+## 5. Tips and Best Practices
 
 - **Caching Strategies**: Configure cache settings wisely to balance freshness and speed for different types of content.
 - **Invalidation**: Learn how to invalidate or clear cached content when you make updates to your website.

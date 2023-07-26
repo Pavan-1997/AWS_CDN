@@ -53,3 +53,6 @@ If you offer software downloads, CloudFront can distribute your files faster, re
 - **Caching Strategies**: Configure cache settings wisely to balance freshness and speed for different types of content.
 - **Invalidation**: Learn how to invalidate or clear cached content when you make updates to your website.
 - **Monitoring and Reporting**: Use AWS tools to monitor your CloudFront distribution's performance and gain insights into user behaviour.
+
+---
+# Implementing a Static website on S3 and accessing it through CloudFront

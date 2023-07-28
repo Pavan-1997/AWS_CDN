@@ -73,3 +73,5 @@ If you offer software downloads, CloudFront can distribute your files faster, re
 Below we are trying to access the static website from the Bucket which shows as access denied since the Public access is blocked 
 
 ![S3WEB](https://github.com/Pavan-1997/AWS_CDN/assets/32020205/8176b141-9132-4128-a03c-f8b20c81dca1)
+
+Below shows the OAI that we have created and updated to the bucket policy 

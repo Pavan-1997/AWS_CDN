@@ -75,3 +75,5 @@ Below we are trying to access the static website from the Bucket which shows as 
 ![S3WEB](https://github.com/Pavan-1997/AWS_CDN/assets/32020205/8176b141-9132-4128-a03c-f8b20c81dca1)
 
 Below shows the OAI that we have created and updated to the bucket policy 
+
+![image](https://github.com/Pavan-1997/AWS_CDN/assets/32020205/5ffeede1-4f0f-420b-90d0-2e9c4b67b2a3)

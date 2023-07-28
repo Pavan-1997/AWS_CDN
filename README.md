@@ -14,9 +14,7 @@ A CDN is like a network of servers spread across various locations worldwide. Th
 
 ## 2. How Does CloudFront Work?
 
-Let's understand how CloudFront works with a simple example:
-
-Imagine you have a website with images stored on an Amazon S3 bucket (a cloud storage service). When a user requests an image, the request goes to CloudFront first.
+Lets say you have a website with images stored on an Amazon S3 bucket (a cloud storage service). When a user requests an image, the request goes to CloudFront first.
 
 Here's how the process flows:
 - **Step 1**: CloudFront checks if it already has the requested image in its cache (storage). If it does, great! It sends the image directly to the user. If not, it proceeds to Step 2.

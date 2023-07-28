@@ -64,6 +64,8 @@ If you offer software downloads, CloudFront can distribute your files faster, re
 
 4. Go to CloudFront from AWS console -> Click on Create distribution -> Origin domain - Select the S3 bucket where you have uploaded the website files -> Origin access - Click on Legacy access identities  ->  Origin access identity - Click on Create new OAI - Click on Create -> Select Yes, update the bucket policy -> Default root object - index.html -> Web Application Firewall (WAF) - Do not enable security protections 
 
+Below accessing the 
+
 ![CF](https://github.com/Pavan-1997/AWS_CDN/assets/32020205/328ef914-7539-459c-8cf9-d847755a7eb4)
 
 Below we are trying to access the static website from the Bucket which shows as access denied since the Public access is blocked 

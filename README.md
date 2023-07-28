@@ -71,3 +71,5 @@ If you offer software downloads, CloudFront can distribute your files faster, re
 ![CF](https://github.com/Pavan-1997/AWS_CDN/assets/32020205/328ef914-7539-459c-8cf9-d847755a7eb4)
 
 Below we are trying to access the static website from the Bucket which shows as access denied since the Public access is blocked 
+
+![S3WEB](https://github.com/Pavan-1997/AWS_CDN/assets/32020205/8176b141-9132-4128-a03c-f8b20c81dca1)
